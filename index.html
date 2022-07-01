@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> New file  Example</title>
+        <title> Build Tech Solution</title> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,8 +14,10 @@
         <style>
           .header-bg{
               /* background-image: url("https://preview.colorlib.com/theme/belara/assets/img/hero/h1_hero1.jpg.webp"); */
-                  background-image: linear-gradient(45deg, black, black);
-          }
+                  /* background-image: linear-gradient(45deg, black, black); */
+                  background-image: linear-gradient(45deg, #0a0a09, #969696);
+         }
+          
           .weblogo{
              width: 150px;
              height: 38px;
@@ -52,16 +54,56 @@
             margin-left: 15px;
             font-size: 25px;
           }
+          .aboutus-img{
+            width: 100%;
+            height: 50%;
+            margin-top: 30px;
+    margin-bottom: 57px; 
+          }
+          .about1{
+            width: 100%; 
+            height: 408px;
+             margin-top: 30px; 
+             margin-bottom: 18px;
+          }
+          .about2{
+            width: 100%;
+           height: 50%;
+            margin-top: 30px; 
+             margin-bottom: 57px;
+          }
+          .img{
+            width: 100%;
+            margin-bottom: 40px;
+          }
+          .box-we{
+            padding-top: 100px;
+            padding-bottom: 100px;
+          }
+          .text-why{
+            padding-left: 23%;
+            padding-right: 12%;
+            padding-top: 7%;
+           }
+           .img-jambo{
+               background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                url(https://mlxs2kuj73ao.i.optimole.com/gCA2N1U-_0Yq2upY/w:1000/h:667/q:auto/https://jindalaluminium.com/wp-content/uploads/2020/11/Jindal-Aluminium-Extrusion.png);
+                background-size: 100%,100%;
+                margin-bottom: -3px;
+                margin-top: -3px;
+}
+           
         </style>
             
      </head>
       <body>
+        <!-- start of header -->
           <div class="header-bg">
 
        
              <nav class="navbar navbar-expand-sm   navbar-dark ">
                 <div class="container">
-            <!-- <a href="" class="navbar-brand">AKSHAY</a> -->
+            
             <a class="navbar-brand" href="#">
                 <img src="data:image/webp;base64,UklGRvgDAABXRUJQVlA4TOwDAAAvg8ALEJ9hkG2knj/T0zzINBC1bSP3+CM9AHfPMGjbRpB7pJ/sQ/n7MJEkSdGOWjgmh/9/FTpcBjUBUiESIhICIgI8AhwsDBR+3Lj+vmS7IxtUE9UoIp9lxJkgLozxht571v3vF9kCyIEiMzByIGQFRjIp0pKW5Gxarbs5v4Rs27bVtjnnXrF0RYbIFGaG//86HXJ6yy8R/Yfgto0kSZn7iqq6ytv7BfjvVmVZw89fiOmPkH0/p3Ununwwl/N3w/QiLZfVUXHNhvklqZxdc67tIGIeEW9slE+iy/O5UG8W8rIsC4+IZTScXdAxXp5JLp/S9fzizEDgAj4aXtgYX0SXGwoTMgOIGAtfbIRXosvruVJf8fNkWW5fFxpPR+CYS5d7RJ8HhbZI5l3bEok6LQBKjx1AQyX7I1s8MJePO6WDThC+WPMNWjCUfdsyiz4lByxlOl643AvDM0TSozAx9ypVCKEpHLpOuOZlWTjESiYpyzKRZiJHRkZ3c2loYYikyy+AR6WDAK+avuvQteSgO3QSgR6lDLFjtnQ51GTCeo/eEIuGSHoVN8q1FUzm0RR0EqhB0D/SIAZqmwk2zFFvYYikW11MfRJC6RFdD5AgNkQkVIilSlvRhVGqQRpyxFaNRUMkfQIxu5QC0vC1PiEfFo+HRp175qLQV5kjPkFrYYikZ9XjSYUfX0+apkI1Au38SpImOvX8Spp6xKDEoiGSroT5vlJWqkaHiACICYjFaBH9vDyDSoWYBqavtTBEkmCidFBpCR6xt5DSfajTO/Sy/p2EIZLM4alRkycFYqnCvmeAaQj64o63RRIYUsNA6xAL+jPBRMI0dQrik1o+YogkQ3iq5y1lkSD9oXlpYd50EJp83v6e7PaEpFWXzT8mP0ESpGGWLvQdb4gk0FLDmI2+VVUyIGsCfd8govOIcwcX2Ee4lUOcXX2vRZ8hkgzZaCCt+B4IGRFx5C92n5Ll2fjZpCIrpRN/qHTzdwNbxPKOVyLJeFJzdIUQWu7QhZapMCXFsGeGfWj1ZWaIJCU8Iy65gxxJlpOaWEuPPkMkKeEZaRkO87kQSaZ/NqKvL4YSSfpJTfz1Il9vjf9sRF9CQCqRpJ7UxFzKchMi6RtajNM0UYOT/XbBTSZZbTWSX1rstgMRGLa7BTCD/QoMxQJSiKRviMXlxAW2MLAhTUvZbH2gGodhsSUCm9Wwp0q7JWyXxg6cj+9psdwu6fSOwlRyVI3TYUGHvF0Np9RoT6Ysglru+UjHk8PiOBb7PR3nsNuJ7CCCWk6iw+44YNiPAOwhsGUB6xOIoJan+z2Z9sVh2q2OY+A7ADZrJrA4bHYD/NssAA==" alt="Logo" 
                 class="weblogo">
@@ -97,6 +139,9 @@
         </nav>
         
     </div>
+    <!-- end of header -->
+
+    <!-- start of carousel -->
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -133,126 +178,131 @@
           <span class="carousel-control-next-icon"></span>
         </a>
       </div>
+      <!-- end of carousel -->
 
-      <br><br>
-      <br><br>
-      <br><br>
+      <!-- start of about us -->
+      <div  style="padding-bottom: 50px; background-color: #0b0016;">
+      <div class="container-fluid" style="padding-top:100px;">
+       <h1 class="text-white" style="margin-left:5%;"> About Us</h1>
+      </div>
       
-
-    <!-- <footer>
-      <div class="footer-wrapper bg-dark">
-        <div class="footer-area footer-padding">
-          <div class="container text-center">
-             <div class="row justify-content-between">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                  
-                  <div class="single-footer-caption mb-50">
-                     <div class="single-footer-caption mb-20">
-                       <div class="footer-logo mb-35">
-                         <a href="index.html"> 
-                         <img src="data:image/webp;base64,UklGRvgDAABXRUJQVlA4TOwDAAAvg8ALEJ9hkG2knj/T0zzINBC1bSP3+CM9AHfPMGjbRpB7pJ/sQ/n7MJEkSdGOWjgmh/9/FTpcBjUBUiESIhICIgI8AhwsDBR+3Lj+vmS7IxtUE9UoIp9lxJkgLozxht571v3vF9kCyIEiMzByIGQFRjIp0pKW5Gxarbs5v4Rs27bVtjnnXrF0RYbIFGaG//86HXJ6yy8R/Yfgto0kSZn7iqq6ytv7BfjvVmVZw89fiOmPkH0/p3Ununwwl/N3w/QiLZfVUXHNhvklqZxdc67tIGIeEW9slE+iy/O5UG8W8rIsC4+IZTScXdAxXp5JLp/S9fzizEDgAj4aXtgYX0SXGwoTMgOIGAtfbIRXosvruVJf8fNkWW5fFxpPR+CYS5d7RJ8HhbZI5l3bEok6LQBKjx1AQyX7I1s8MJePO6WDThC+WPMNWjCUfdsyiz4lByxlOl643AvDM0TSozAx9ypVCKEpHLpOuOZlWTjESiYpyzKRZiJHRkZ3c2loYYikyy+AR6WDAK+avuvQteSgO3QSgR6lDLFjtnQ51GTCeo/eEIuGSHoVN8q1FUzm0RR0EqhB0D/SIAZqmwk2zFFvYYikW11MfRJC6RFdD5AgNkQkVIilSlvRhVGqQRpyxFaNRUMkfQIxu5QC0vC1PiEfFo+HRp175qLQV5kjPkFrYYikZ9XjSYUfX0+apkI1Au38SpImOvX8Spp6xKDEoiGSroT5vlJWqkaHiACICYjFaBH9vDyDSoWYBqavtTBEkmCidFBpCR6xt5DSfajTO/Sy/p2EIZLM4alRkycFYqnCvmeAaQj64o63RRIYUsNA6xAL+jPBRMI0dQrik1o+YogkQ3iq5y1lkSD9oXlpYd50EJp83v6e7PaEpFWXzT8mP0ESpGGWLvQdb4gk0FLDmI2+VVUyIGsCfd8govOIcwcX2Ee4lUOcXX2vRZ8hkgzZaCCt+B4IGRFx5C92n5Ll2fjZpCIrpRN/qHTzdwNbxPKOVyLJeFJzdIUQWu7QhZapMCXFsGeGfWj1ZWaIJCU8Iy65gxxJlpOaWEuPPkMkKeEZaRkO87kQSaZ/NqKvL4YSSfpJTfz1Il9vjf9sRF9CQCqRpJ7UxFzKchMi6RtajNM0UYOT/XbBTSZZbTWSX1rstgMRGLa7BTCD/QoMxQJSiKRviMXlxAW2MLAhTUvZbH2gGodhsSUCm9Wwp0q7JWyXxg6cj+9psdwu6fSOwlRyVI3TYUGHvF0Np9RoT6Ysglru+UjHk8PiOBb7PR3nsNuJ7CCCWk6iw+44YNiPAOwhsGUB6xOIoJan+z2Z9sVh2q2OY+A7ADZrJrA4bHYD/NssAA==" alt="Logo" 
-                         class="footer-logo">
-                        </a>
-                       </div>
-
-                     </div>
-                  </div>
-
-                </div>
-                <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-                  <div class="single-footer-caption mb-50">
-                    <div class="footer-tittle">
-                      <h4 class="text-white"> Quick link</h4>
-                      <ul style="    list-style: none;">
-                        <li><a href="#"  class="text-white " >Work </a></li>
-                        <li><a href="#"  class="text-white" >Services </a></li>
-                        <li><a href="#"  class="text-white" >Products </a></li>
-                      </ul>
-
-                    </div>
-
-                  </div>
-
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
-                  <div class="single-footer-caption mb-50">
-                    <div class="footer-tittle">
-                      <h4 class="text-white"> Service</h4>
-                      <ul  style="    list-style: none;">
-                        <li><a href="#"  class="text-white" >FAQ </a></li>
-                        <li><a href="#"  class="text-white" >submit </a></li>
-                        <li><a href="#"  class="text-white" >Contact </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3  col-lg-3 col-md-6 col-sm-12 col-12">
-                  <div class="single-footer-caption mb-50">
-                  <div class="footer-tittle mb-10">
-                  <h4 class="text-white">Newsletter</h4>
-                  <p class="text-white">Subscribe newsletter to get updates.</p>
-                  </div>
-                  
-                  <div class="footer-form mb-20">
-                  <div id="mc_embed_signup">
-                  <form target="_blank" class="subscribe_form relative mail_part" novalidate="true">
-                  <input type="email" name="EMAIL" id="newsletter-form-email" placeholder="Enter your email" class="placeholder hide-on-focus">
-                  <button type="submit" name="submit" id="newsletter-submit" class=" btn-outline-info" ><i class="fa fa-send"  style="font-size:15px; "></i></button>
-                  <div class="form-icon">
-                   
-                  <!-- <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm bg-warning"> <i class="fa fa-send btn btn-warning " style="font-size:20px; "></i>
-                  </button> -->
-                  <!-- </div>
-                  
-                  <div class="mt-10 info"></div>
-                  </form>
-                  </div>
-                  </div>
-                  <br>
-                  <div class="footer-social mt-30 footer-justified m-auto">
-                  <a href="https://www.fb.com/sai4ull"><i class="fa fa-facebook text-white  "></i></a>
-                  <a href="#"><i class="fa fa-instagram text-white"></i></a>
-                  <a href="#"><i class="fa fa-youtube text-white"></i></a>
-                  </div>
-             </div>
-            
-              </div>
-              
-              </div>
+      <div class="container">
+      <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+         <label class="text-white font-weight-italic " style="padding-top: 30px; font-size: 22px;"> "Belara is a multi-awads wining<br> architectural 
+           and desing studio<br> operating in the field of interior<br>
+          desing and architecture</label>
+          
+            <img src="https://st2.depositphotos.com/1000393/6507/i/600/depositphotos_65076917-stock-photo-hacker-and-terrorism-fight.jpg"
+           class="about1">
+          
           </div>
-             
-        </div>
-       <div class="footer-bottom-area">
-         <div class="container">
-           <div class="footer-border">
-             <div class="row">
-               <div class="col-xl-12">
-                 <div class="footer-copy-right text-center">
-                   <p class="text-white">
-                     "Akshat Shah"
-                     "2001 All Rights resevred / this template is made with"
-                     <i class="fa fa-heart color-danger" aria-hidden="true"> ::before</i>
-                     "by"
-                     <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a>
-                   </p>
+    
 
-                 </div>
+    
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+      <label class="text-white" style="padding-bottom: 30px; padding-top: 30px; font-size: 18px;"> The studio offers tailor-made solution for every<br> project that has a unique identity according to its<br>
+        context. understanding the scope and the project ambitions, and through listening to clients, users,<br>and contractors help us in creating
+        well-conceived<br>gesing solutions.
+       </label>
+       <div>
+      <a href="#"> <button type="button" class="btn btn-outline-warning text-white ">Loarn More</button></a>
+      
+      <img src="https://media.istockphoto.com/photos/young-business-people-in-office-picture-id1185622398?k=20&m=1185622398&s=612x612&w=0&h=j76SJI-gAW64fPolbjuAml0E7uDyGO9hDpjwXA1dX2A="
+      class="about2">
+    
+    </div>
+   </div>
+  </div>
+      </div>
+     
+    </div>
+    <!-- end of about us -->
 
-               </div>
+    <!-- start of what we do -->
+    <div style="padding-bottom: 50px; background-color: #0b0016;">
+      <div class="container-fluid">
+        <h1 class="text-white" style="margin-left:5%; padding-bottom: 50px;"> What We Do </h1>
+      </div>
 
-             </div>
-
+       <div class="container" style="background-color: #0b0016;">
+         <div class="row">
+           <div class="col-lg-4 col-xl-4 col-md-6 col-sm-6 col-12">
+              <img src="https://materbu.com.pl/wp-content/uploads/2019/08/jansen-janisol-okno.png" class="img"> 
+              <div style="padding-bottom: 50px;">
+                <h2 class="text-white"> Commerical</h2>
+                <span class="text-white"> ARCHITECTURE DESING</span>
+              </div>
            </div>
+
+           <div class="col-lg-4 col-xl-4 col-md-6 col-sm-6 col-12">
+            <img src="https://www.jansen.com/fileadmin/_processed_/8/0/csm_Connex-Cube-Fenster-Jansen_f8d3f624b9.jpg" class="img"> 
+            <div  style="padding-bottom: 50px;">
+              <h2 class="text-white" style="margin-top: 20px;"> Commerical</h2>
+              <span class="text-white"> ARCHITECTURE DESING</span>
+            </div>
+         </div>
+
+         <div class="col-lg-4 col-xl-4 col-md-6 col-sm-6 col-12">
+          <img src="https://materbu.com.pl/wp-content/uploads/2019/08/jansen-janisol-okno.png" class="img"> 
+          <div>
+            <h2 class="text-white"> Commerical</h2>
+            <span class="text-white"> ARCHITECTURE DESING</span>
+          </div>
+       </div>
 
          </div>
 
        </div>
 
       </div>
-    </footer> -->
+      
+    <!-- end of what we do -->
 
+     <!-- start of Why Us  -->
+    <div class=" box-we" style="background-color: #0b0016;">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-12">
+          <div>
+          <img src="https://media.designcafe.com/wp-content/uploads/2021/04/08180903/modern-window-grill-design.jpg" style="width:100%"> 
+        </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12">
+          <div class="text-why">
+          <h1 class="text-white"> Why Us?</h1>
+          <span class="text-white " style="font-size: 20px;"> 
+            Belara Nakaeameguro is located in a <br>
+            quiet locating, a6-minute walk <br>from JR nakameguro station and <br>a side street from komazawa depositphotos_65076917<br>-stock-photo-hacker-and-terrorism-fight
+            it has 5 <br>floors above ground, with office space.
+          </span>
+          <div style="margin-top: 30px;">
+          <a href="#"> <button type="button" class="btn btn-outline-warning text-white ">Loarn More</button></a>
+        </div>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+        <!-- end of Why Us  -->
+       <div class="jumbotron img-jambo" >  
+
+          <div class= "container " >
+              <h1 class="text-white"> Welcome To Build-tech solutions  </h1>
+              <p class="text-white"> "Akshat Shah" build-tech solutions
+                  are <br> graman u-pvc window &door systems.shop no.5778
+                   manoj plaza 
+              </p>
+              <button class="btn btn-primary"> submit</button>
+ 
+          </div>
+         </div>
+  <!-- start of footer -->
     <footer>
-      <div class="footer-wrapper bg-dark bg-dark">
+      <div class="footer-wrapper" style="background-color: #1e1e1e;">
       <div class="footer-area footer-padding footer-space">
       <div class="container">
         <div class="row justify-content-between">
@@ -271,8 +321,8 @@
               <div class="footer-title">
                 <h4 class="text-white space text-center"> Quick link</h4>
                 <ul style="    list-style: none; padding-left: 0px;" class="text-center">
-                  <li class="space"><a href="#"  class="text-white" >Work </a></li>
-                  <li class="space"><a href="#"  class="text-white" >Services </a></li>
+                  <li class="space"><a href="#"  class="text-white" >Home </a></li>
+                  <li class="space"><a href="#"  class="text-white" >About </a></li>
                   <li class="space"><a href="#"  class="text-white" >Products </a></li>
                 </ul>
 
@@ -314,15 +364,61 @@
                   <a href="#"><i class="fa fa-youtube text-white footer-icon"></i></a> 
                   </div>
                </div>
-              
+               
           </div>
         </div>
         </div>
-
+        <!-- footer last line -->
+        <hr style="border-color: #868989;">
+        <div class="footer-bottom-area">
+          <div class="container">
+            <div class="footer-border">
+              <div class="row">
+                <div class="col-xl-12">
+                  <div class="footer-copy-right text-center">
+                    <p class="text-white">
+                      Designed and Developed by Akshay Hatkar <i class="fa fa-heart color-danger" aria-hidden="true"></i><br>
+                      2022 All Rights resevred by 
+                      <a href="https://colorlib.com" target="_blank" rel="nofollow noopener"> Build Tech Solution</a>
+                    </p>
+ 
+                  </div>
+ 
+                </div>
+ 
+              </div>
+ 
+            </div>
+ 
+          </div>
+ 
+        </div>
       </div>
+      
    </div>
     </footer>
-    <br> <br><br>
-    <br><br>
+    <!-- end of footer -->
+   
   </body>
       </html>
+
+
+
+      <!-- <div class="row align-items-center">
+        <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-8">
+        
+        <div class="about-img">
+        <img src="assets/img/gallery/xabout3.jpg.pagespeed.ic.rduDiAdYX1.webp" alt="" data-pagespeed-url-hash="2519648405" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        </div>
+        </div>
+        <div class="offset-xxl-1 col-xxl-4 col-xl-5 col-lg-6 col-md-9">
+        <div class="about-caption">
+        
+        <div class="section-tittle mb-25">
+        <h2>Why Us?</h2>
+        <p>Belara Nakameguro is located in a quiet location, a 6-minute walk from JR Nakameguro Station and a side street from Komazawa Dori. It has 5 floors above ground, with office space.</p>
+        <a href="#" class="border-btn mt-20 ">Learn More</a>
+        </div>
+        </div>
+        </div>
+        </div> -->
