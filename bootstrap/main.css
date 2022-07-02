@@ -1,0 +1,116 @@
+.header-bg{
+    /* background-image: url("https://preview.colorlib.com/theme/belara/assets/img/hero/h1_hero1.jpg.webp"); */
+        /* background-image: linear-gradient(45deg, black, black); */
+        /* background-image: linear-gradient(45deg, #0a0a09,  #333131); */
+        background-image: linear-gradient(45deg, #ffffff, #ffffff);
+}
+.header-size{
+ padding-bottom: 9px;
+ padding-top: 9px;
+}
+
+.weblogo{
+   width: 150px;
+   height: 61px;
+}
+.header-menu{
+        font-size: 22px; 
+       /* color: rgb(243 243 243); */
+       color: black;
+}
+  /* for mobile  0 to 768 */
+  @media only screen and (max-width: 768px) {
+        .imgSlider{
+        width: 100%;
+        height: 200px;
+      }
+      .about1{
+        width: 100%;
+        height: 200px;
+      }
+      .text-why {
+            padding-left: 8%;
+             padding-right: 8%;
+            padding-top: 7%;
+      }
+      .footer-logo {
+           padding-bottom: 27px;
+           width: 40%;
+       }
+
+}
+/* for desktop 768 to kitipan */
+@media only screen and (min-width: 768px) {
+  .imgSlider{
+  width: 100%;
+  height: 550px;
+}
+.about1{
+        width: 100%;
+        height: 408px;
+      }
+      .text-why {
+            padding-left: 23%;
+             padding-right: 12%;
+            padding-top: 7%;
+      }
+      .footer-logo {
+           padding-bottom: 27px;
+           width: 100%;
+       }
+
+}
+.footer-space{
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+.space{
+  padding-bottom: 20px;
+}
+.footer-logo{
+  padding-bottom: 27px;
+  /* width: 100%; */
+}
+.footer-icon{
+  margin-left: 15px;
+  font-size: 25px;
+}
+.aboutus-img{
+  width: 100%;
+  height: 50%;
+  margin-top: 30px;
+margin-bottom: 57px; 
+}
+.about1{
+  margin-top: 30px; 
+   margin-bottom: 18px;
+}
+.about2{
+  width: 100%;
+  height: 307px;
+  margin-top: 30px; 
+   margin-bottom: 57px;
+}
+.img{
+  width: 100%;
+  margin-bottom: 40px;
+  height: 300px;
+}
+.box-we{
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+/* .text-why{
+  padding-left: 23%;
+  padding-right: 12%;
+  padding-top: 7%;
+ } */
+ .img-jambo{
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+      url(https://mlxs2kuj73ao.i.optimole.com/gCA2N1U-_0Yq2upY/w:1000/h:667/q:auto/https://jindalaluminium.com/wp-content/uploads/2020/11/Jindal-Aluminium-Extrusion.png);
+      background-size: 100%,100%;
+      margin-bottom: -3px;
+      margin-top: -3px;
+      background-size: cover; 
+}
+
