@@ -3,6 +3,10 @@
         /* background-image: linear-gradient(45deg, black, black); */
         /* background-image: linear-gradient(45deg, #0a0a09,  #333131); */
         background-image: linear-gradient(45deg, #ffffff, #ffffff);
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
 }
 .header-size{
  padding-bottom: 9px;
@@ -114,3 +118,6 @@ margin-bottom: 57px;
       background-size: cover; 
 }
 
+.header-bottom{
+    margin-bottom: 93px;
+}
