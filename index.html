@@ -15,23 +15,34 @@
           .header-bg{
               /* background-image: url("https://preview.colorlib.com/theme/belara/assets/img/hero/h1_hero1.jpg.webp"); */
                   /* background-image: linear-gradient(45deg, black, black); */
-                  background-image: linear-gradient(45deg, #0a0a09, #969696);
+                  /* background-image: linear-gradient(45deg, #0a0a09,  #333131); */
+                  background-image: linear-gradient(45deg, #ffffff, #ffffff);
+         }
+         .header-size{
+           padding-bottom: 9px;
+           padding-top: 9px;
          }
           
           .weblogo{
              width: 150px;
-             height: 38px;
+             height: 61px;
           }
           .header-menu{
                   font-size: 22px; 
-                 color: rgb(243 243 243);
+                 /* color: rgb(243 243 243); */
+                 color: black;
           }
             /* for mobile  0 to 768 */
             @media only screen and (max-width: 768px) {
-            .imgSlider{
-            width: 100%;
-            height: 200px;
-          }
+                  .imgSlider{
+                  width: 100%;
+                  height: 200px;
+                }
+                .about1{
+                  width: 100%;
+                  height: 200px;
+                }
+
           }
           /* for desktop 768 to kitipan */
           @media only screen and (min-width: 768px) {
@@ -39,10 +50,15 @@
             width: 100%;
             height: 550px;
           }
+          .about1{
+                  width: 100%;
+                  height: 408px;
+                }
+          
           }
           .footer-space{
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 40px;
+            padding-bottom: 12px;
           }
           .space{
             padding-bottom: 20px;
@@ -61,9 +77,7 @@
     margin-bottom: 57px; 
           }
           .about1{
-            width: 100%; 
-            height: 408px;
-             margin-top: 30px; 
+            margin-top: 30px; 
              margin-bottom: 18px;
           }
           .about2{
@@ -77,8 +91,8 @@
             margin-bottom: 40px;
           }
           .box-we{
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 80px;
+            padding-bottom: 60px;
           }
           .text-why{
             padding-left: 23%;
@@ -93,6 +107,7 @@
                 margin-top: -3px;
                 background-size: cover; 
           }
+
            
         </style>
             
@@ -102,11 +117,13 @@
           <div class="header-bg">
 
        
-             <nav class="navbar navbar-expand-sm   navbar-dark ">
+             <nav class="navbar navbar-expand-sm   navbar-dark header-size">
                 <div class="container">
             
             <a class="navbar-brand" href="#">
-                <img src="data:image/webp;base64,UklGRvgDAABXRUJQVlA4TOwDAAAvg8ALEJ9hkG2knj/T0zzINBC1bSP3+CM9AHfPMGjbRpB7pJ/sQ/n7MJEkSdGOWjgmh/9/FTpcBjUBUiESIhICIgI8AhwsDBR+3Lj+vmS7IxtUE9UoIp9lxJkgLozxht571v3vF9kCyIEiMzByIGQFRjIp0pKW5Gxarbs5v4Rs27bVtjnnXrF0RYbIFGaG//86HXJ6yy8R/Yfgto0kSZn7iqq6ytv7BfjvVmVZw89fiOmPkH0/p3Ununwwl/N3w/QiLZfVUXHNhvklqZxdc67tIGIeEW9slE+iy/O5UG8W8rIsC4+IZTScXdAxXp5JLp/S9fzizEDgAj4aXtgYX0SXGwoTMgOIGAtfbIRXosvruVJf8fNkWW5fFxpPR+CYS5d7RJ8HhbZI5l3bEok6LQBKjx1AQyX7I1s8MJePO6WDThC+WPMNWjCUfdsyiz4lByxlOl643AvDM0TSozAx9ypVCKEpHLpOuOZlWTjESiYpyzKRZiJHRkZ3c2loYYikyy+AR6WDAK+avuvQteSgO3QSgR6lDLFjtnQ51GTCeo/eEIuGSHoVN8q1FUzm0RR0EqhB0D/SIAZqmwk2zFFvYYikW11MfRJC6RFdD5AgNkQkVIilSlvRhVGqQRpyxFaNRUMkfQIxu5QC0vC1PiEfFo+HRp175qLQV5kjPkFrYYikZ9XjSYUfX0+apkI1Au38SpImOvX8Spp6xKDEoiGSroT5vlJWqkaHiACICYjFaBH9vDyDSoWYBqavtTBEkmCidFBpCR6xt5DSfajTO/Sy/p2EIZLM4alRkycFYqnCvmeAaQj64o63RRIYUsNA6xAL+jPBRMI0dQrik1o+YogkQ3iq5y1lkSD9oXlpYd50EJp83v6e7PaEpFWXzT8mP0ESpGGWLvQdb4gk0FLDmI2+VVUyIGsCfd8govOIcwcX2Ee4lUOcXX2vRZ8hkgzZaCCt+B4IGRFx5C92n5Ll2fjZpCIrpRN/qHTzdwNbxPKOVyLJeFJzdIUQWu7QhZapMCXFsGeGfWj1ZWaIJCU8Iy65gxxJlpOaWEuPPkMkKeEZaRkO87kQSaZ/NqKvL4YSSfpJTfz1Il9vjf9sRF9CQCqRpJ7UxFzKchMi6RtajNM0UYOT/XbBTSZZbTWSX1rstgMRGLa7BTCD/QoMxQJSiKRviMXlxAW2MLAhTUvZbH2gGodhsSUCm9Wwp0q7JWyXxg6cj+9psdwu6fSOwlRyVI3TYUGHvF0Np9RoT6Ysglru+UjHk8PiOBb7PR3nsNuJ7CCCWk6iw+44YNiPAOwhsGUB6xOIoJan+z2Z9sVh2q2OY+A7ADZrJrA4bHYD/NssAA==" alt="Logo" 
+                <!-- <img src="data:image/webp;base64,UklGRvgDAABXRUJQVlA4TOwDAAAvg8ALEJ9hkG2knj/T0zzINBC1bSP3+CM9AHfPMGjbRpB7pJ/sQ/n7MJEkSdGOWjgmh/9/FTpcBjUBUiESIhICIgI8AhwsDBR+3Lj+vmS7IxtUE9UoIp9lxJkgLozxht571v3vF9kCyIEiMzByIGQFRjIp0pKW5Gxarbs5v4Rs27bVtjnnXrF0RYbIFGaG//86HXJ6yy8R/Yfgto0kSZn7iqq6ytv7BfjvVmVZw89fiOmPkH0/p3Ununwwl/N3w/QiLZfVUXHNhvklqZxdc67tIGIeEW9slE+iy/O5UG8W8rIsC4+IZTScXdAxXp5JLp/S9fzizEDgAj4aXtgYX0SXGwoTMgOIGAtfbIRXosvruVJf8fNkWW5fFxpPR+CYS5d7RJ8HhbZI5l3bEok6LQBKjx1AQyX7I1s8MJePO6WDThC+WPMNWjCUfdsyiz4lByxlOl643AvDM0TSozAx9ypVCKEpHLpOuOZlWTjESiYpyzKRZiJHRkZ3c2loYYikyy+AR6WDAK+avuvQteSgO3QSgR6lDLFjtnQ51GTCeo/eEIuGSHoVN8q1FUzm0RR0EqhB0D/SIAZqmwk2zFFvYYikW11MfRJC6RFdD5AgNkQkVIilSlvRhVGqQRpyxFaNRUMkfQIxu5QC0vC1PiEfFo+HRp175qLQV5kjPkFrYYikZ9XjSYUfX0+apkI1Au38SpImOvX8Spp6xKDEoiGSroT5vlJWqkaHiACICYjFaBH9vDyDSoWYBqavtTBEkmCidFBpCR6xt5DSfajTO/Sy/p2EIZLM4alRkycFYqnCvmeAaQj64o63RRIYUsNA6xAL+jPBRMI0dQrik1o+YogkQ3iq5y1lkSD9oXlpYd50EJp83v6e7PaEpFWXzT8mP0ESpGGWLvQdb4gk0FLDmI2+VVUyIGsCfd8govOIcwcX2Ee4lUOcXX2vRZ8hkgzZaCCt+B4IGRFx5C92n5Ll2fjZpCIrpRN/qHTzdwNbxPKOVyLJeFJzdIUQWu7QhZapMCXFsGeGfWj1ZWaIJCU8Iy65gxxJlpOaWEuPPkMkKeEZaRkO87kQSaZ/NqKvL4YSSfpJTfz1Il9vjf9sRF9CQCqRpJ7UxFzKchMi6RtajNM0UYOT/XbBTSZZbTWSX1rstgMRGLa7BTCD/QoMxQJSiKRviMXlxAW2MLAhTUvZbH2gGodhsSUCm9Wwp0q7JWyXxg6cj+9psdwu6fSOwlRyVI3TYUGHvF0Np9RoT6Ysglru+UjHk8PiOBb7PR3nsNuJ7CCCWk6iw+44YNiPAOwhsGUB6xOIoJan+z2Z9sVh2q2OY+A7ADZrJrA4bHYD/NssAA==" alt="Logo" 
+                class="weblogo"> -->
+                <img src="./logo.png" alt="Logo" 
                 class="weblogo">
               </a>
                
@@ -117,20 +134,20 @@
                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
                <ul class="navbar-nav text-center ml-auto">
                    <li class="nav-item">
-                       <a href="#" class="nav-link  text-white font-weight-bold">Home</a>
+                       <a href="#" class="nav-link  text-dark font-weight-bold">Home</a>
                     </li>
                    <li class="nav-item">
-                       <a href="#"  class="nav-link  text-white font-weight-bold">About</a>
+                       <a href="#"  class="nav-link  text-dark font-weight-bold">About</a>
                     </li>
                    <li class="nav-item">
-                       <a href="#" class="nav-link  text-white font-weight-bold">Products</a>
+                       <a href="#" class="nav-link  text-dark font-weight-bold">Products</a>
                     </li>
 
                    <li class="nav-item">
-                       <a href="#"  class="nav-link  text-white font-weight-bold">Contact</a>
+                       <a href="#"  class="nav-link  text-dark font-weight-bold">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#"  class="nav-link  text-white font-weight-bold"><i class="fa fa-phone" style="font-size:14px"></i>+919844100901</a>
+                        <a href="#"  class="nav-link  text-dark font-weight-bold"><i class="fa fa-phone" style="font-size:14px"></i>+919844100901</a>
                      </li>
                   
                </ul>
@@ -182,16 +199,16 @@
       <!-- end of carousel -->
 
       <!-- start of about us -->
-      <div  style="padding-bottom: 50px; background-color: #0b0016;">
-      <div class="container-fluid" style="padding-top:100px;">
-       <h1 class="text-white" style="margin-left:5%;"> About Us s</h1>
+      <div  style="padding-bottom: 20px; background-color: #0b0016;">
+      <div class="container-fluid" style="padding-top:50px;">
+       <h1 class="text-white" style="margin-left:5%;"> About Us </h1>
       </div>
       
       <div class="container">
       <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-         <label class="text-white font-weight-italic " style="padding-top: 30px; font-size: 22px;"> "Belara is a multi-awads wining<br> architectural 
-           and desing studio<br> operating in the field of interior<br>
+         <label class="text-white font-weight-italic " style="padding-top: 30px; font-size: 22px;"> "Belara" is a multi-awads wining  of  architectural 
+           and desing studio operating in the field of interior
           desing and architecture</label>
           
             <img src="https://st2.depositphotos.com/1000393/6507/i/600/depositphotos_65076917-stock-photo-hacker-and-terrorism-fight.jpg"
@@ -202,9 +219,9 @@
 
     
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-      <label class="text-white" style="padding-bottom: 30px; padding-top: 30px; font-size: 18px;"> The studio offers tailor-made solution for every<br> project that has a unique identity according to its<br>
-        context. understanding the scope and the project ambitions, and through listening to clients, users,<br>and contractors help us in creating
-        well-conceived<br>gesing solutions.
+      <label class="text-white" style="padding-bottom: 30px; padding-top: 30px; font-size: 18px;"> The studio offers tailor-made solution for every project that has a unique identity according to its
+        context. understanding the scope and the project ambitions, and through listening to clients, users,and contractors help us in creating
+        well-conceived gesing solutions.
        </label>
        <div>
       <a href="#"> <button type="button" class="btn btn-outline-warning text-white ">Loarn More</button></a>
@@ -274,9 +291,9 @@
           <div class="text-why">
           <h1 class="text-white"> Why Us?</h1>
           <span class="text-white " style="font-size: 20px;"> 
-            Belara Nakaeameguro is located in a <br>
-            quiet locating, a6-minute walk <br>from JR nakameguro station and <br>a side street from komazawa depositphotos_65076917<br>-stock-photo-hacker-and-terrorism-fight
-            it has 5 <br>floors above ground, with office space.
+            Belara Nakaeameguro is located in a 
+            quiet locating, a6-minute walk from JR nakameguro station and a side street from komazawa depositphotos_65076917 -stock-photo-hacker-and-terrorism-fight
+            it has 5 floors above ground, with office space.
           </span>
           <div style="margin-top: 30px;">
           <a href="#"> <button type="button" class="btn btn-outline-warning text-white ">Loarn More</button></a>
@@ -295,7 +312,7 @@
           <div class= "container " >
               <h1 class="text-white"> Welcome To Build-tech solutions  </h1>
               <p class="text-white"> "Akshat Shah" build-tech solutions
-                  are <br> graman u-pvc window &door systems.shop no.5778
+                  are  graman u-pvc window &door systems.shop no.5778
                    manoj plaza 
               </p>
               <button class="btn btn-primary"> submit</button>
